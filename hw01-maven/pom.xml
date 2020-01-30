@@ -21,7 +21,11 @@
 
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.2-jre</version>
+        </dependency>
     </dependencies>
 
     <packaging>jar</packaging>
@@ -43,7 +47,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        HelloOtus
+                                        hw.HelloOtus
                                     </mainClass>
                                 </manifest>
                             </archive>
